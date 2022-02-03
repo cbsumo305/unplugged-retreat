@@ -87,6 +87,123 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+ /* Basic styles */
+
+  header,
+  footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+  }
+
+  .content-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  /* Header styles */
+
+  header {
+
+  }
+
+  header .content-wrapper {
+
+  }
+
+  header .header-divider {
+
+  }
+
+  header nav {
+
+  }
+
+  /* MOBILE STYLES - HOMEPAGE */
+
+  /* main content */
+
+  main .content-wrapper {
+      flex-flow: row wrap;
+  }
+
+  .hero-area {
+
+  }
+
+  .hero-area .content-wrapper {
+
+  }
+
+  /* newsletter signup form */
+
+  aside {
+
+  }
+
+  aside .content-wrapper {
+
+  }
+
+  .form-description {
+
+  }
+
+  .form {
+
+  }
+
+  /* retreat features */
+
+  .features {
+
+  }
+
+  .features .content-wrapper {
+
+  }
+
+  .features-items {
+
+  }
+
+  .features-items article {
+
+  }
+
+  .fontawesome-icon {
+
+  }
+
+  .features-item-description {
+
+  }
+
+  /* reviews */
+
+  .reviews {
+
+  }
+
+  .reviews .content-wrapper {
+
+  }
+
+  .reviews article {
+
+  }
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
