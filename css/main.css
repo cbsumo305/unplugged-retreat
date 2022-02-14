@@ -178,19 +178,6 @@ footer .social-icons p {
   margin: 20px 0;
 }
 
-
-/*footer .footer-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  flex-flow: row wrap;
-}*/
-
-/*footer .contact, footer .social {
-    width: 55%;
-}*/
-
 /* ==========================================================================
    MOBILE Home Page
    ========================================================================== */
@@ -224,36 +211,12 @@ aside .content-wrapper {
     padding-bottom: 55px;
 }
 
-/*.form-description {
-    width: 90%;
-}
-
-.form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    width: 90%;
-}
-
-.form h3 {
-    width: 100%;
-}
-
-.form input {
-    width: 100%;
-}*/
-
   /* retreat features */
 
 .features {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-}
-
-.features .content-wrapper {
-      
 }
 
 .features h2 {
@@ -301,15 +264,6 @@ aside .content-wrapper {
     margin: 20px 0;
 }
 
-/*.reviews .content-wrapper {
-    width: 90%
-
-}
-
-.reviews article {
-
-}*/
-
 .reviews article img {
     width: 100%;
     height: auto;
@@ -348,26 +302,24 @@ aside .content-wrapper {
   flex-flow: row wrap;
 }
 
-  .faq .content-wrapper {
-    margin: 50px 0 0 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-  }
+.faq .content-wrapper {
+  margin: 50px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
-  .faq h2 {
-    margin-bottom: 40px;
-  }
+.faq h2 {
+  margin-bottom: 40px;
+}
 
 .faq-content {
   margin-bottom: 50px;
 }
 
-
-
 /* ==========================================================================
-   tablet styles
+   TABLET styles
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
@@ -385,18 +337,18 @@ aside .content-wrapper {
     padding: 33px 0;
   }
 
-    header .content-wrapper {
-      width: 100%;
-      justify-content: space-between;
-    }
+  header .content-wrapper {
+    width: 100%;
+    justify-content: space-between;
+  }
 
-    header nav {
-      width: 20%;
-    }
+  header nav {
+    width: 20%;
+  }
 
-      header nav ul {
-        justify-content: space-between;
-      }
+  header nav ul {
+    justify-content: space-between;
+  }
 
   .header-divider {
     display: none;
@@ -440,9 +392,13 @@ aside .content-wrapper {
     justify-content: space-between;
   }
 
-    .reviews article div {
-      width: 49%;
-    }
+  .reviews article img {
+      width: 50%;
+  }
+
+  .reviews article div {
+    width: 49%;
+  }
 
   /* footer */
   footer .content-wrapper {
@@ -475,9 +431,9 @@ aside .content-wrapper {
     padding-top: 20px
   }
 
-    .mission-content p {
-      width: 45%;
-    }
+  .mission-content p {
+    width: 45%;
+  }
 
   .contact-section .content-wrapper h2 {
     width: 80%;
@@ -505,18 +461,63 @@ aside .content-wrapper {
     width: 100%;
   }
 }
+
+
+/* ==========================================================================
+     DESKTOP styles
+     ========================================================================== */
+
+@media only screen and (min-width: 1200px) {
+  /* general */
+  .content-wrapper {
+    max-width: 960px;
   }
 
-  /* desktop */
-
-  @media only screen and (min-width: 1200px) {
-
+  /* hero */
+  .hero-area h1 {
+    width: 75%;
   }
 
+  /*aside*/
+  aside .content-wrapper {
+    justify-content: space-evenly;
+  }
 
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 33%;
+  }
 
+  /* Features */
+  .features h2 {
+    width: 92%;
+  }
 
+  .features article {
+    flex-basis: 30%;
+  }
 
+  /* Reviews */
+  .reviews article div {
+    width: 50%;
+  }
+
+  /* ==========================================================================
+   About Page
+   ========================================================================== */
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 100%;
+  }
+
+  /* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+  .faq h2 {
+    width: 100%;
+  }
+}
+   
 /* ==========================================================================
    Helper classes
    ========================================================================== */
